@@ -1,0 +1,83 @@
+.menu, .menu * {
+	margin:0;
+	padding:0;
+}
+
+
+div#horiz-menu {  /* this is a z-index ie6 and ie7 bug fix */
+	position: relative;
+	z-index: 50;
+}
+
+#horiz-menu li li {
+	margin: 0;
+}
+
+.menu {
+	line-height:1.0;
+	float:left;
+	margin-bottom:1.5em;
+	position: relative;
+}
+.menu ul {
+	background:#fff; /*IE6 needs this*/
+	padding: 0;
+}
+
+.menu li {
+	float:left;
+	list-style:none;
+	position:relative;
+}
+
+div#horiz-menu li li a {
+	display:block;
+	padding: 0;
+	margin: 0;
+	text-decoration:none;
+	float:none;
+	height: 30px;
+	line-height: 30px;
+	text-indent: 18px;
+	width:98%;
+}
+
+.menu li ul {
+	float:none;
+	left:-999em;
+	position:absolute;
+	width: 177px;
+	z-index: 5;
+}
+
+.menu li:hover ul,
+.menu li.sfHover ul {
+	left: -2px;
+	top: 38px;
+}
+.menu li:hover li ul,
+.menu li.sfHover li ul,
+.menu li li:hover li ul,
+.menu li li.sfHover li ul,
+.menu li li li:hover li ul,
+.menu li li li.sfHover li ul {
+	top:-999em;
+}
+.menu li li:hover ul,
+.menu li li.sfHover ul,
+.menu li li li:hover ul,
+.menu li li li.sfHover ul,
+.menu li li li li:hover ul,
+.menu li li li li.sfHover ul {
+	left: 178px;
+	top:-1px;
+
+}
+
+.menu li li {
+	position: relative;
+	float:none;
+	width: 100%;
+}
+
+

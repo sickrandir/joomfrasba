@@ -1,0 +1,34 @@
+/* hack to center align floated slider tabs */
+
+#rokslide-wrapper {
+	display: inline-block;
+	text-align: center;
+}
+
+#rokslide-wrapper del {
+	display: inline-block;
+	
+}
+
+#rokslide-toolbar li {
+	float: left;
+}
+
+#rokslide-toolbar li span {
+	float: left;
+}
+
+.accent {
+	background: #1f1f1f;
+}
+
+#topmodules,
+#bottommodules {
+	zoom: 1;
+}
+
+
+
+
+
+

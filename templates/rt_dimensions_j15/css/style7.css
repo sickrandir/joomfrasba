@@ -1,0 +1,62 @@
+/* name - style7
+	 description - space
+	 ************************************************
+	 color1 - #bc7290
+	 color2 - #585fa0
+	 color3 - #999
+	 ************************************************
+	
+	to update this style, first replace the header/footer image, then search and replace the 3 colors listed above.
+	
+*/
+
+/* header */
+
+#bg-top {
+	background: #000 url(../images/backgrounds/texture-5.jpg) 50% 0 no-repeat;
+}
+
+/* footer */
+
+#bg-bottom, #bg-bottom-ie {
+	background: url(../images/backgrounds/texture-5b.jpg) 50% 100% no-repeat;
+}
+
+/* color 1 */
+
+a, h2, .contentheading, #maincol .moduletable h3, #bottom-modules h3, .moduletable-hilite2 h3, .moduletable-hilite5 h3, .module-hilite2 h3, .module-hilite5 h3, ul.menuside li.active a, a#active_menu, a#active_menu.sublevel {
+	color: #bc7290;
+}
+
+a img.album {
+	border-color: #bc7290;
+}
+
+.contentheading, .maincol .accent, #horiz-menu li.active span span.selector, a#active_menu, ul.menuside li.active a, a.readon,
+div.moduletable-hilite1 a.readon, div.module-hilite1 a.readon, ul.arrow-1 li, ul.triangle-1 li, ul.bullet-1 li, ul.bullet-5 li, ul.plus-1 li {
+	background-color: #bc7290;
+}
+
+/* color 2 */
+
+#maincol a, h1, #secondcol .moduletable h3,.moduletable-hilite3 h3, .moduletable-hilite6 h3, .module-hilite3 h3, .module-hilite6 h3, #logo-space span, #horiz-menu li:hover li:hover a:hover, #horiz-menu li.sfHover li.sfHover a:hover, ul.menuside a:hover, ul.menuside li.active li a:hover, a.mainlevel:hover, a.sublevel:hover {
+	color:  #585fa0;
+}
+
+.secondcol .accent, #horiz-menu li:hover span span.selector, #horiz-menu li.sfHover span span.selector, a.mainlevel:hover, ul.menuside a:hover, ul.menuside li.active li a:hover, ul.arrow-2 li, ul.triangle-2 li, ul.bullet-2 li, ul.bullet-6 li, ul.plus-2 li,.moduletable-hilite1 ul.arrow-2 li {
+	background-color: #585fa0;
+}
+
+/* color 3 */
+
+#thirdcol .moduletable h3, .moduletable-hilite1 h3, .moduletable-hilite4 h3, .module-hilite1 h3, .module-hilite4 h3 {
+	color: #999;
+}
+
+.thirdcol .accent {
+	background-color: #999;
+}
+
+/* color overrides */
+
+/* end */

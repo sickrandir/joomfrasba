@@ -1,0 +1,77 @@
+hr {
+	clear: both;
+	height: 0;
+	border: 0;
+	display: none;
+}
+
+/* The toolbar for the content box */
+#rokslide-wrapper del {
+	text-decoration: none;
+	clear: both;	
+}
+
+ul#rokslide-toolbar {
+  display: table;
+  padding: 0; 
+  margin: 0 auto; 
+  list-style-type: none;
+  white-space: nowrap;
+}
+
+
+#rokslide-toolbar li {
+	display: table-cell;
+	height: 33px;
+	line-height: 33px;
+	font-weight: bold;
+}
+
+#rokslide-toolbar span {
+	cursor: pointer;
+	padding: 0 19px 0 15px;
+	display: block;
+	width: auto;
+	text-decoration: none;
+}
+	
+div#frame {
+	clear: both;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+	
+div#frame div.button {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	overflow: hidden;
+	top: 40%;
+}
+
+div#frame div.button#left {
+	left: 10px;
+}
+
+div#frame div.button#right {
+	right: 10px;
+}
+
+div#frame div.button#left:hover, div#frame div.button#left.hover,
+div#frame div.button#right:hover, div#frame div.button#right.hover{
+	background-position: 0 -50px;
+}
+
+#scroller {
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.tab-pane {
+	margin: 0 20px;
+	float: left;
+	overflow: hidden;
+}
+

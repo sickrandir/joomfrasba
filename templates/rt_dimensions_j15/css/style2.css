@@ -1,0 +1,249 @@
+/* name - style2 
+	 description - field scene changing by time of day
+	 ************************************************
+	 -- DAY --
+	 color1 - #75a1c5
+	 color2 - #bae37c
+
+	 -- NIGHT --
+	 color1 - #3c83d4
+	 color2 - #F3D49B
+	
+	 -- DUSK --
+	 color1 - #e15523
+	 color2 - #F3D49B
+	
+	 -- DAWN --
+	 color1 - #be58b8
+	 color2 - #e0794e
+	
+	 color3 - #999
+	 ************************************************
+	
+	to update this style, first replace the header/footer image, then search and replace the 3 colors listed above.
+	
+*/
+
+/* header */
+
+body#day #bg-top {
+	background: #000 url(../images/backgrounds/sun-top-day.png) 50% 0 no-repeat;
+}
+
+body#night #bg-top {
+	background: #000 url(../images/backgrounds/sun-top-night.png) 50% 0 no-repeat;
+}
+
+body#dusk #bg-top {
+	background: #000 url(../images/backgrounds/sun-top-dusk.png) 50% 0 no-repeat;
+}
+
+body#dawn #bg-top {
+	background: #000 url(../images/backgrounds/sun-top-dawn.png) 50% 0 no-repeat;
+}
+
+/* footer */
+
+#bg-bottom, #bg-bottom-ie {
+	background: url(../images/backgrounds/city-bottom.png) 50% 100% no-repeat;
+}
+/****** day colors *******/
+
+/* color 1 */
+
+#day a, #day h2, #day .contentheading, #day #maincol .moduletable h3, #day #bottom-modules h3, #day .moduletable-hilite2 h3, #day .moduletable-hilite5 h3, #day .module-hilite2 h3, #day .module-hilite5 h3, #day ul.menuside li.active a, #day a#active_menu, #day a#active_menu.sublevel {
+	color: #FFD000;
+}
+
+#day a img.album {
+	border-color: #FFD000;
+}
+
+#day .contentheading, #day .maincol .accent, #day #horiz-menu li.active span span.selector, #day a#active_menu, #day ul.menuside li.active a, #day a.readon, #day
+div.moduletable-hilite1 a.readon, #day div.module-hilite1 a.readon, #day ul.arrow-1 li, #day ul.triangle-1 li, #day ul.bullet-1 li, #day ul.bullet-5 li, #day ul.plus-1 li {
+	background-color: #FFD000;
+}
+
+/* color 2 */
+
+#day #maincol a, #day h1, #day #secondcol .moduletable h3, #day.moduletable-hilite3 h3, #day .moduletable-hilite6 h3, #day .module-hilite3 h3, #day .module-hilite6 h3, #day #logo-space span, #day #horiz-menu li:hover li:hover a:hover, #day #horiz-menu li.sfHover li.sfHover a:hover, #day ul.menuside a:hover, #day ul.menuside li.active li a:hover, #day a.mainlevel:hover, #day a.sublevel:hover {
+	color:  #FFAA00;
+}
+
+#day .secondcol .accent, #day #horiz-menu li:hover span span.selector, #day #horiz-menu li.sfHover span span.selector, #day a.mainlevel:hover, #day ul.menuside a:hover, #day ul.menuside li.active li a:hover, #day ul.arrow-2 li, #day ul.triangle-2 li, #day ul.bullet-2 li, #day ul.bullet-6 li, #day ul.plus-2 li, #day.moduletable-hilite1 ul.arrow-2 li {
+	background-color: #FFAA00;
+}
+
+/****** night colors *******/
+
+/* color 1 */
+
+#night a, #night h2, #night .contentheading, #night #maincol .moduletable h3, #night #bottom-modules h3, #night .moduletable-hilite2 h3, #night .moduletable-hilite5 h3, #night .module-hilite2 h3, #night .module-hilite5 h3, #night ul.menuside li.active a, #night a#active_menu, #night a#active_menu.sublevel {
+	color: #666;
+}
+
+#night a img.album {
+	border-color: #666;
+}
+
+#night .contentheading, #night .maincol .accent, #night #horiz-menu li.active span span.selector, #night a#active_menu, #night ul.menuside li.active a, #night a.readon, #night
+div.moduletable-hilite1 a.readon, #night div.module-hilite1 a.readon, #night ul.arrow-1 li, #night ul.triangle-1 li, #night ul.bullet-1 li, #night ul.bullet-5 li, #night ul.plus-1 li {
+	background-color: #666;
+}
+
+/* color 2 */
+
+#night #maincol a, #night h1, #night #secondcol .moduletable h3, #night.moduletable-hilite3 h3, #night .moduletable-hilite6 h3, #night .module-hilite3 h3, #night .module-hilite6 h3, #night #logo-space span, #night #horiz-menu li:hover li:hover a:hover, #night #horiz-menu li.sfHover li.sfHover a:hover, #night ul.menuside a:hover, #night ul.menuside li.active li a:hover, #night a.mainlevel:hover, #night a.sublevel:hover {
+	color:  #666;
+}
+
+#night .secondcol .accent, #night #horiz-menu li:hover span span.selector, #night #horiz-menu li.sfHover span span.selector, #night a.mainlevel:hover, #night ul.menuside a:hover, #night ul.menuside li.active li a:hover, #night ul.arrow-2 li, #night ul.triangle-2 li, #night ul.bullet-2 li, #night ul.bullet-6 li, #night ul.plus-2 li, #night.moduletable-hilite1 ul.arrow-2 li {
+	background-color: #666;
+}
+
+/****** dusk colors *******/
+
+/* color 1  */
+
+#dusk a, #dusk h2, #dusk .contentheading, #dusk #maincol .moduletable h3, #dusk #bottom-modules h3, #dusk .moduletable-hilite2 h3, #dusk .moduletable-hilite5 h3, #dusk .module-hilite2 h3, #dusk .module-hilite5 h3, #dusk ul.menuside li.active a, #dusk a#active_menu, #dusk a#active_menu.sublevel {
+	color: #FFAA00;
+}
+
+#dusk a img.album {
+	border-color: #FFAA00;
+}
+
+#dusk .contentheading, #dusk .maincol .accent, #dusk #horiz-menu li.active span span.selector, #dusk a#active_menu, #dusk ul.menuside li.active a, #dusk a.readon, #dusk
+div.moduletable-hilite1 a.readon, #dusk div.module-hilite1 a.readon, #dusk ul.arrow-1 li, #dusk ul.triangle-1 li, #dusk ul.bullet-1 li, #dusk ul.bullet-5 li, #dusk ul.plus-1 li  {
+	background-color: #FFAA00;
+}
+
+/* color 2  */
+
+#dusk #maincol a, #dusk h1, #dusk #secondcol .moduletable h3, #dusk.moduletable-hilite3 h3, #dusk .moduletable-hilite6 h3, #dusk .module-hilite3 h3, #dusk .module-hilite6 h3, #dusk #logo-space span, #dusk #horiz-menu li:hover li:hover a:hover, #dusk #horiz-menu li.sfHover li.sfHover a:hover, #dusk ul.menuside a:hover, #dusk ul.menuside li.active li a:hover, #dusk a.mainlevel:hover, #dusk a.sublevel:hover {
+	color:  #d5aa20;
+}
+
+#dusk .secondcol .accent, #dusk #horiz-menu li:hover span span.selector, #dusk #horiz-menu li.sfHover span span.selector, #dusk a.mainlevel:hover, #dusk ul.menuside a:hover, #dusk ul.menuside li.active li a:hover, #dusk ul.arrow-2 li, #dusk ul.triangle-2 li, #dusk ul.bullet-2 li, #dusk ul.bullet-6 li, #dusk ul.plus-2 li, #dusk.moduletable-hilite1 ul.arrow-2 li {
+	background-color: #d5aa20;
+}
+
+/****** dawn colors *******/
+
+/* color 1  */
+
+#dawn a, #dawn h2, #dawn .contentheading, #dawn #maincol .moduletable h3, #dawn #bottom-modules h3, #dawn .moduletable-hilite2 h3, #dawn .moduletable-hilite5 h3, #dawn .module-hilite2 h3, #dawn .module-hilite5 h3, #dawn ul.menuside li.active a, #dawn a#active_menu, #dawn a#active_menu.sublevel {
+	color: #ffff00;
+}
+
+#dawn a img.album {
+	border-color: #ffff00;
+}
+
+#dawn .contentheading, #dawn .maincol .accent, #dawn #horiz-menu li.active span span.selector, #dawn a#active_menu, #dawn ul.menuside li.active a, #dawn a.readon, #dawn
+div.moduletable-hilite1 a.readon, #dawn div.module-hilite1 a.readon, #dawn ul.arrow-1 li, #dawn ul.triangle-1 li, #dawn ul.bullet-1 li, #dawn ul.bullet-5 li, #dawn ul.plus-1 li {
+	background-color: #ffff00;
+}
+
+/* color 2  */
+
+#dawn #maincol a, #dawn h1, #dawn #secondcol .moduletable h3, #dawn.moduletable-hilite3 h3, #dawn .moduletable-hilite6 h3, #dawn .module-hilite3 h3, #dawn .module-hilite6 h3, #dawn #logo-space span, #dawn #horiz-menu li:hover li:hover a:hover, #dawn #horiz-menu li.sfHover li.sfHover a:hover, #dawn ul.menuside a:hover, #dawn ul.menuside li.active li a:hover, #dawn a.mainlevel:hover, #dawn a.sublevel:hover {
+	color:  #e0794e;
+}
+
+#dawn .secondcol .accent, #dawn #horiz-menu li:hover span span.selector, #dawn #horiz-menu li.sfHover span span.selector, #dawn a.mainlevel:hover, #dawn ul.menuside a:hover, #dawn ul.menuside li.active li a:hover, #dawn ul.arrow-2 li, #dawn ul.triangle-2 li, #dawn ul.bullet-2 li, #dawn ul.bullet-6 li, #dawn ul.plus-2 li, #dawn.moduletable-hilite1 ul.arrow-2 li {
+	background-color: #e0794e;
+}
+
+/****** common colors *******/
+
+/* color 3 */
+
+#thirdcol .moduletable h3, .moduletable-hilite1 h3, .moduletable-hilite4 h3, .module-hilite1 h3, .module-hilite4 h3 {
+	color: #FFAA00;
+}
+
+.thirdcol .accent {
+	background-color: #002200;
+}
+
+/* color overrides */
+
+#bg-top-overlay, #bg-bottom-overlay {
+	background: none;
+}
+
+#day ul.menuside ul a, #dusk ul.menuside ul a, #dawn ul.menuside ul a, #night ul.menuside ul a {
+	text-indent: 0;
+	color: #ccc;
+}
+
+#day ul.menuside li.active li a, #dusk ul.menuside li.active li a, #dawn ul.menuside li.active li a, #night ul.menuside li.active li a {
+	color: #ccc;
+	background-color: #ccc;
+}
+
+#night a#active_menu.sublevel, #day a#active_menu.sublevel, #dawn a#active_menu.sublevel, #dusk a#active_menu.sublevel {
+	background: none;
+}
+
+#day ul.menuside a, #night ul.menuside a, #dusk ul.menuside a, #dawn ul.menuside a, #day a.mainlevel, #night a.mainlevel, #dusk a.mainlevel, #dawn a.mainlevel {
+	color: #ccc;
+}
+
+#day ul.menuside ul a, #night ul.menuside ul a, #dusk ul.menuside ul a, #dawn ul.menuside ul a {
+	background: #999 url(../images/triangle.png) 0 5px;
+}
+
+#day a.sublevel, #night a.sublevel, #dusk a.sublevel, #dawn a.sublevel {
+	color: #ccc;
+}
+
+#day #horiz-menu li:hover a, #day #horiz-menu li.sfHover a, #day #horiz-menu li:hover a:hover, #day #horiz-menu li.sfHover a:hover, #night #horiz-menu li:hover a, #night #horiz-menu li.sfHover a, #night #horiz-menu li:hover a:hover, #night #horiz-menu li.sfHover a:hover, #dusk #horiz-menu li:hover a, #dusk #horiz-menu li.sfHover a, #dusk #horiz-menu li:hover a:hover, #dusk #horiz-menu li.sfHover a:hover, #dawn #horiz-menu li:hover a, #dawn #horiz-menu li.sfHover a, #dawn #horiz-menu li:hover a:hover, #dawn #horiz-menu li.sfHover a:hover {
+	color: #fff;
+}
+
+#night #horiz-menu a, #day #horiz-menu a, #dusk #horiz-menu a, #dawn #horiz-menu a  {
+	color: #ccc;
+}
+
+#day #horiz-menu li.active a, #day #horiz-menu li.active_menu a, #night #horiz-menu li.active a, #night #horiz-menu li.active_menu a, #dusk #horiz-menu li.active a, #dusk #horiz-menu li.active_menu a, #dawn #horiz-menu li.active a, #dawn #horiz-menu li.active_menu a {
+	color: #fff;
+}
+
+/* end */
+
+
+
+/* CUSTOM TIPOGRAPHY ADDED BY KINTO  */
+
+h5 { 
+	font-size: 170%;
+	color: #FFAA00;
+}
+
+h6 {
+	font-size: 130%;
+	color: #fff;
+}
+
+
+
+ul.arrowTango {
+	padding-left: 25px;
+	margin-left: 0;
+}
+
+ul.arrowTango li {
+	list-style: none;
+	margin-top: 10px;	
+	margin-left: 0;
+	margin-bottom: 5px;
+	padding-top: 7px;	
+	padding-left: 37px;
+	padding-bottom: 5px;
+	background: url(../images/go-next.png) 0 0 no-repeat;
+}
+
+
+/* CUSTOM TIPOGRAPHY ADDED BY KINTO  */

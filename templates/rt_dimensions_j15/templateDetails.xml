@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install version="1.5" type="template">
+    <name>rt_dimensions_j15</name>
+    <version>1.0</version>
+    <creationDate>10/30/07</creationDate>
+    <author>rhuk</author>
+    <authorEmail>support@rockettheme.com</authorEmail>
+    <authorUrl>http://www.rockettheme.com</authorUrl>
+    <copyright>Copyright 2006-2007 - RocketTheme.com</copyright>
+    <license>Proprietary - RTTC Club members only</license>
+    <description>
+			<![CDATA[
+			<h1>RocketTheme Dimensions</h1>
+
+			<img src="../templates/rt_dimensions_j15/template_thumbnail.png" align="left" hspace="10" />Dimensions is the new November 2007 template from RocketTheme. It is not free or public.  This template is for members of the RocketTheme Joomla Template Club only.  For installation help check out the 'equinox' Overview Page on the <a href="http://www.rockettheme.com/blogcategory/Template_Club/">RocketTheme Template Club</a> home page.
+
+			<h3>Changelog</h3>
+			
+			<b>1.0.0</b><br />
+			<ul>
+			<li>Initial Release</li>
+			</ul>
+
+			]]>  	
+    </description>
+		<files>
+			<filename>index.php</filename>
+			<filename>params.ini</filename>
+			<filename>rt_styleloader.php</filename>
+			<filename>rt_styleswitcher.php</filename>
+			<filename>rt_tabmodules.php</filename>
+			<filename>rt_utils.php</filename>
+			<filename>template_thumbnail.png</filename>
+			<filename>templateDetails.xml</filename>
+			<folder>html/</folder>
+			<folder>css/</folder>
+			<folder>images/</folder>
+			<folder>js/</folder>
+			<folder>rokzoom/</folder>
+		</files>
+		<positions>
+			<position>inset</position>
+			<position>top</position>
+			<position>toolbar</position>
+			<position>search</position>
+			<position>user1</position>
+			<position>user2</position>
+			<position>user3</position>
+			<position>user4</position>
+			<position>user5</position>
+			<position>user6</position>
+			<position>user7</position>
+			<position>user8</position>
+			<position>user9</position>
+			<position>user10</position>
+			<position>user11</position>
+		</positions>
+    <params>
+			<param name="defaultStyle" type="list" default="style2" label="Style Variation" description="Color Style Variation">
+				<option value="style1">Style 1</option>
+				<option value="style2">Style 2</option>
+				<option value="style3">Style 3</option>
+				<option value="style4">Style 4</option>
+				<option value="style5">Style 5</option>
+				<option value="style6">Style 6</option>
+				<option value="style7">Style 7</option>
+				<option value="style8">Style 8</option>
+				<option value="style9">Style 9</option>
+				<option value="style10">Style 10</option>
+				<option value="style11">Style 11</option>
+				<option value="style12">Style 12</option>
+				<option value="style13">Style 13</option>
+				<option value="style14">Style 14</option>
+				<option value="style15">Style 15</option>
+				<option value="style16">Style 16</option>
+				<option value="style17">Style 17</option>
+				<option value="style18">Style 18</option>
+				<option value="style19">Style 19</option>
+				<option value="style20">Style 20</option>
+			</param>
+			<param name="templateWidth" type="text" default="990" label="Template Width" description="Width in px for Fixed Template Width Style" />
+			<param name="secondcolWidth" type="text" default="25%" label="Second Column Wdith" description="with in px or %" />
+			<param name="thirdcolWidth" type="text" default="25%" label="Third Column Wdith" description="with in px or %" />
+			<param name="enableRokzoom" type="radio" default="1" label="Enable RokZom" description="Enable/Disable RokZoom">
+				<option value="1">Enabled</option>
+				<option value="0">Disabled</option>
+			</param>
+			<param name="@spacer" type="spacer" default="" label="" description="" />
+			<param name="menuType" type="list" default="splitmenu" label="Menu Type" description="Type of menu for main navigation">
+				<option value="moomenu">MooMenu</option>
+				<option value="suckerfish">Suckerfish</option>
+				<option value="splitmenu">SplitMenu</option>
+				<option value="module">Toolbar Module Position</option>
+			</param>
+			<param name="menuName" type="text" default="mainmenu" label="Menu Name" description="Name of Joomla! menu for the main navigation" />
+			<param name="splitmenuCol" type="radio" default="secondcol" label="Splitmenu column" description="Which column the second level nav will show up in">
+				<option value="secondcol">Second Column</option>
+				<option value="thirdcol">Third Column</option>
+			</param>
+			<param name="@spacer" type="spacer" default="" label="" description="" />
+			<param name="moo_bgiframe" type="radio" default="0" label="MooMenu bgIFrame" description="Only turn on if you are having problems with IE and z-index. This feature is experimental.">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</param>
+			<param name="moo_delay" type="text" default="500" label="MooMenu Delay" description="This is the how long (ms) you can mouse off the menu before it vanishes." />
+			<param name="moo_duration" type="text" default="400" label="MooMenu Duration" description="the time in ms the animation will run for." />
+			<param name="moo_fps" type="text" default="100" label="MooMenu FPS" description="speed of the animation - leave at 100 for best results." />
+			<param name="moo_transition" type="list" default="Expo.easeOut" label="MooMenu Transition" description="any of the available MooTools transitions.">
+				<option value="linear">linear</option>
+				<option value="Quad.easeOut">Quad.easeOut</option>
+				<option value="Quad.easeIn">Quad.easeIn</option>
+				<option value="Quad.easeInOut">Quad.easeInOut</option>
+				<option value="Cubic.easeOut">Cubic.easeOut</option>
+				<option value="Cubic.easeIn">Cubic.easeIn</option>
+				<option value="Cubic.easeInOut">Cubic.easeInOut</option>
+				<option value="Quart.easeOut">Quart.easeOut</option>
+				<option value="Quart.easeIn">Quart.easeIn</option>
+				<option value="Quart.easeInOut">Quart.easeInOut</option>
+				<option value="Quint.easeOut">Quint.easeOut</option>
+				<option value="Quint.easeIn">Quint.easeIn</option>
+				<option value="Quint.easeInOut">Quint.easeInOut</option>
+				<option value="Expo.easeOut">Expo.easeOut</option>
+				<option value="Expo.easeIn">Expo.easeIn</option>
+				<option value="Expo.easeInOut">Expo.easeInOut</option>
+				<option value="Circ.easeOut">Circ.easeOut</option>
+				<option value="Circ.easeIn">Circ.easeIn</option>
+				<option value="Circ.easeInOut">Circ.easeInOut</option>
+				<option value="Sine.easeOut">Sine.easeOut</option>
+				<option value="Sine.easeIn">Sine.easeIn</option>
+				<option value="Sine.easeInOut">Sine.easeInOut</option>
+				<option value="Back.easeOut">Back.easeOut</option>
+				<option value="Back.easeIn">Back.easeIn</option>
+				<option value="Back.easeInOut">Back.easeInOut</option>
+				<option value="Bounce.easeOut">Bounce.easeOut</option>
+				<option value="Bounce.easeIn">Bounce.easeIn</option>
+				<option value="Bounce.easeInOut">Bounce.easeInOut</option>
+				<option value="Elastic.easeOut">Elastic.easeOut</option>
+				<option value="Elastic.easeIn">Elastic.easeIn</option>
+				<option value="Elastic.easeInOut">Elastic.easeInOut</option>
+			</param>
+			<param name="@spacer" type="spacer" default="" label="" description="" />
+			<param name="zoom_resize_duration" type="text" default="700" label="RokZoom Resize Duration" description="the time in ms the animation will run for." />
+			<param name="zoom_opacity_duration" type="text" default="500" label="RokZoom Opacity Duration" description="the time in ms the animation will run for." />
+			<param name="zoom_transition" type="list" default="Cubic.easeOut" label="RokZoom Transition" description="any of the available MooTools transitions.">
+				<option value="linear">linear</option>
+				<option value="Quad.easeOut">Quad.easeOut</option>
+				<option value="Quad.easeIn">Quad.easeIn</option>
+				<option value="Quad.easeInOut">Quad.easeInOut</option>
+				<option value="Cubic.easeOut">Cubic.easeOut</option>
+				<option value="Cubic.easeIn">Cubic.easeIn</option>
+				<option value="Cubic.easeInOut">Cubic.easeInOut</option>
+				<option value="Quart.easeOut">Quart.easeOut</option>
+				<option value="Quart.easeIn">Quart.easeIn</option>
+				<option value="Quart.easeInOut">Quart.easeInOut</option>
+				<option value="Quint.easeOut">Quint.easeOut</option>
+				<option value="Quint.easeIn">Quint.easeIn</option>
+				<option value="Quint.easeInOut">Quint.easeInOut</option>
+				<option value="Expo.easeOut">Expo.easeOut</option>
+				<option value="Expo.easeIn">Expo.easeIn</option>
+				<option value="Expo.easeInOut">Expo.easeInOut</option>
+				<option value="Circ.easeOut">Circ.easeOut</option>
+				<option value="Circ.easeIn">Circ.easeIn</option>
+				<option value="Circ.easeInOut">Circ.easeInOut</option>
+				<option value="Sine.easeOut">Sine.easeOut</option>
+				<option value="Sine.easeIn">Sine.easeIn</option>
+				<option value="Sine.easeInOut">Sine.easeInOut</option>
+				<option value="Back.easeOut">Back.easeOut</option>
+				<option value="Back.easeIn">Back.easeIn</option>
+				<option value="Back.easeInOut">Back.easeInOut</option>
+				<option value="Bounce.easeOut">Bounce.easeOut</option>
+				<option value="Bounce.easeIn">Bounce.easeIn</option>
+				<option value="Bounce.easeInOut">Bounce.easeInOut</option>
+				<option value="Elastic.easeOut">Elastic.easeOut</option>
+				<option value="Elastic.easeIn">Elastic.easeIn</option>
+				<option value="Elastic.easeInOut">Elastic.easeInOut</option>
+			</param>
+			<param name="@spacer" type="spacer" default="" label="" description="" />
+			<param name="defaultFont" type="list" default="default" label="Font Size" description="Font size variation to use">
+				<option value="smaller">Smaller</option>
+				<option value="default">Default</option>
+				<option value="larger">Larger</option>
+			</param>
+			<param name="showBreadcrumbs" type="radio" default="1" label="Show Breadcrumbs" description="Show/Hide the Breadcrumbs">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</param>
+			<param name="@spacer" type="spacer" default="" label="" description="" />
+			<param name="moduleSliderHeight" type="text" default="200" label="Module Slider Height" description="Height of the module slider block at the bottom" />
+			<param name="maxModsPerRow" type="text" default="3" label="Max Modules per row" description="Maximum modules per row" />
+			<param name="msTitle1" type="text" default="Group 1 Tab" label="Tab 1 Title" description="" />
+			<param name="msModule1" type="text" default="user7" label="Tab 1 Module" description="" />
+			<param name="msTitle2" type="text" default="Group 2 Tab" label="Tab 2 Title" description="" />
+			<param name="msModule2" type="text" default="user8" label="Tab 2 Module" description="" />
+			<param name="msTitle3" type="text" default="Group 3 Tab" label="Tab 3 Title" description="" />
+			<param name="msModule3" type="text" default="user9" label="Tab 3 Module" description="" />
+			<param name="msTitle4" type="text" default="Group 4 Tab" label="Tab 4 Title" description="" />
+			<param name="msModule4" type="text" default="user10" label="Tab 4 Module" description="" />
+			<param name="msTitle5" type="text" default="Group 5 Tab" label="Tab 5 Title" description="" />
+			<param name="msModule5" type="text" default="user11" label="Tab 5 Module" description="" />
+		</params>		
+</install>
